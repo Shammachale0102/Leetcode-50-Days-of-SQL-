@@ -15,3 +15,4 @@ Each row of this table indicates the id of a customer, their name, and the id of
 SELECT name
 FROM Customer
 WHERE referee_id IS NULL OR referee_id != 2;
+
