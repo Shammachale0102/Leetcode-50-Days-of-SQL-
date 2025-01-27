@@ -38,3 +38,4 @@ SELECT
     ) AS confirmation_rate
 FROM UserStats
 ORDER BY user_id;
+
