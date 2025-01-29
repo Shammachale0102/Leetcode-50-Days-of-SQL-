@@ -15,8 +15,9 @@ Each row of this table indicates the price of the product_id in the period from 
 For each product_id there will be no two overlapping periods. That means there will be no two intersecting periods for the same product_id.*/
 
 # Write your MySQL query statement below
+# Write your MySQL query statement below
 SELECT p.product_id,
-       ROUND(SUM(u.units * p.price) / SUM(u.units), 2) AS average_price
+       ROUND(COALESCE(SUM(u.units * p.price) / NULLIF(SUM(u.units), 0), 0), 2) AS average_price
 FROM Prices p
 LEFT JOIN UnitsSold u
     ON p.product_id = u.product_id
