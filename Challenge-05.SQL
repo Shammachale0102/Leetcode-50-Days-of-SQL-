@@ -16,3 +16,5 @@ This table contains all the tweets in a social media app.*/
 SELECT tweet_id
 FROM Tweets
 WHERE LENGTH(content) > 15;
+
+
