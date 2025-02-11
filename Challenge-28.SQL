@@ -23,3 +23,5 @@ FROM
      FROM MyNumbers 
      GROUP BY num 
      HAVING COUNT(num) = 1) AS single_numbers;
+
+
