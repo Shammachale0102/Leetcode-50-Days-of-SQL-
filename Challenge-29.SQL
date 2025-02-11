@@ -26,3 +26,4 @@ FROM CustomerProductCount c
 JOIN ProductCount p
 ON c.bought_products = p.total_products;
 
+
