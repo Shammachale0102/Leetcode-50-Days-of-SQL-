@@ -19,3 +19,5 @@ FROM Cinema
 WHERE id % 2 = 1  -- This filters for odd IDs
   AND description != 'boring'  -- This excludes "boring" descriptions
 ORDER BY rating DESC;  -- Orders the results by rating in descending order
+
+
