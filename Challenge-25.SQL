@@ -26,3 +26,5 @@ SELECT s.product_id, f.first_year, s.quantity, s.price
 FROM Sales s
 JOIN FirstSales f 
 ON s.product_id = f.product_id AND s.year = f.first_year;
+
+
