@@ -29,3 +29,5 @@ SELECT
     ROUND(quality, 2) AS quality,
     ROUND(poor_query_percentage, 2) AS poor_query_percentage
 FROM QueryStats;
+
+
