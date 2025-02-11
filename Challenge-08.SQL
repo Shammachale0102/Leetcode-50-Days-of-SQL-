@@ -24,3 +24,5 @@ WHERE
     t.visit_id IS NULL
 GROUP BY
     v.customer_id;
+
+
