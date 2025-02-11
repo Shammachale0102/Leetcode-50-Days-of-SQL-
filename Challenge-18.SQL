@@ -26,3 +26,5 @@ SELECT cr.contest_id,
 FROM ContestRegistrations cr
 CROSS JOIN TotalUsers tu
 ORDER BY percentage DESC, cr.contest_id ASC;
+
+
