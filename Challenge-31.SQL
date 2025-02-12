@@ -33,4 +33,3 @@ FROM Employee
 GROUP BY employee_id
 HAVING COUNT(*) = 1;
 
-
